@@ -1,0 +1,16 @@
+.container-fluid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 800px) {
+    .container-fluid {
+        flex-flow: column-reverse;
+    }
+}
+
+body {
+    font-family: 'Lato', sans-serif !important;
+}
